@@ -7,7 +7,6 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/interfaz-perfil.css">
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/flex.css">
 
 </head>
 <body>
@@ -117,5 +116,6 @@
             </div>
     </div>
 
+    
 </body>
 </html>

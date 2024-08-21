@@ -7,13 +7,12 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/interfaz-perfil.css">
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/flex.css">
 
 </head>
 <body>
     <div class="navbar" style="display: flex; >
     <img loading="lazys" alt="logo SENA" src="/img/logo_encabezado.png"/>
-            <div class="titulo-headera" style="display: flex; margin-left: 30px"">
+            <div class="titulo-headera" style="display: flex; margin-left: 30px">
                 <p class="slnaa"> SLNA </p>
                 <p class="descripcion_tituloa"> Seguimiento Local </p>
                 <p class="descripcion_tituloa"> de Notas de Aprendices </p>

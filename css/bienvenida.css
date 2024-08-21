@@ -1,0 +1,29 @@
+/*mensaje de bienvenida de la pagina principal*/
+
+.alert-success.new2 {
+    background: #00324d1e;
+    border: none;
+    border-left: 4px solid #00324d;
+    border-radius: 0;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, .2);
+  margin: 20px;
+  }
+  
+  .alert-success.new2.p-4 {
+    padding: 0.75rem 0.75rem;
+  }
+  
+  .alert-success .alert-body {
+    padding-left: 0.75rem;
+    display: table-cell;
+    color: rgba(0,0,0,0.5);
+    font-family: Work Sans;
+  }
+  
+  .alert-success .alert-header {
+    font-weight: 700;
+    color: #00324d;
+    padding: 0;
+    margin: 0;
+  }
+  /*mensaje de bienvenida de la pagina principal*/

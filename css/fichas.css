@@ -1,0 +1,30 @@
+/* Contenedor principal */
+.grid-container {
+    display: grid;
+    gap: 10px;
+    padding: 10px;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas iguales */
+    grid-template-rows: auto; /* Filas automáticas basadas en el contenido */
+}
+
+/* Estilos para los elementos de la cuadrícula */
+.grid-item {
+
+    text-align: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    
+}
+
+/* Responsivo: cuando la pantalla es pequeña, las columnas se ajustan */
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en pantallas medianas */
+    }
+}
+
+@media (max-width: 480px) {
+    .grid-container {
+        grid-template-columns: 1fr; /* 1 columna en pantallas pequeñas */
+    }
+}

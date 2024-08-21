@@ -7,8 +7,6 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/interfaz-perfil.css">
     <link rel="stylesheet" href="../css/global.css">
-    <link rel="stylesheet" href="../css/flex.css">
-
 </head>
 <body>
     <div class="navbar" style="display: flex; >
@@ -27,7 +25,7 @@
 
     <div class="profile-header">
                 <div>
-                    <h2>Perfil</h2>
+                    <h2>PERFIL</h2>
                 </div>
                 <div>
                     <i class='bx bx-bell notification-icon'></i>
@@ -67,7 +65,7 @@
 
             <div class="targe2">
                 <div class="card1">
-                                <img src="/img/logo-sena2.png" alt="SENA Logo" class="card-img">
+                                <img src="../img/logo-sena2.png" alt="SENA Logo" class="card-img">
                                 <div class="card-content">
                                     <h2>Ficha 285664 TGO ADSO</h2>
                                     <p><strong>Group Leader:</strong> Yuli Saenz</p>
@@ -78,7 +76,7 @@
                             </div>
 
                             <div class="card1">
-                                <img src="/img/logo-sena2.png" alt="SENA Logo" class="card-img">
+                                <img src="../img/logo-sena2.png" alt="SENA Logo" class="card-img">
                                 <div class="card-content">
                                     <h2>Ficha 285664 TGO ADSO</h2>
                                     <p><strong>Group Leader:</strong> Yuli Saenz</p>
@@ -89,7 +87,7 @@
                             </div>
 
                             <div class="card1">
-                                <img src="/img/logo-sena2.png" alt="SENA Logo" class="card-img">
+                                <img src="../img/logo-sena2.png" alt="SENA Logo" class="card-img">
                                 <div class="card-content">
                                     <h2>Ficha 285664 TGO ADSO</h2>
                                     <p><strong>Group Leader:</strong> Yuli Saenz</p>

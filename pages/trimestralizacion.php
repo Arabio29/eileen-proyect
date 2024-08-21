@@ -3,31 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App Sena</title>
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> 
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/footerAndHeader.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/interfaz-perfil.css">
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/trimestralizacion.css">
+
 </head>
 <body>
-
-    
-    
-    <div class="hero">
-            <header class="header">
-            <div class="contenedor-header">
-                <img loading="lazy" alt="logo SENA" src="/img/logo_encabezado.png"/>
-                <div class="titulo-header">
-                    <p class="slna">SLNA</p>
-                    <p class="descripcion_titulo">Seguimiento Local</p>
-                    <p class="descripcion_titulo">de Notas de Aprendices</p>
-                </div>
+    <div class="navbar" style="display: flex; >
+    <img loading="lazys" alt="logo SENA" src="/img/logo_encabezado.png"/>
+            <div class="titulo-headera" style="display: flex; margin-left: 30px"">
+                <p class="slnaa"> SLNA </p>
+                <p class="descripcion_tituloa"> Seguimiento Local </p>
+                <p class="descripcion_tituloa"> de Notas de Aprendices </p>
             </div>
-            </header>
+    </div>
 
-                <!--INICIO CONTENIDO-->
+    <div class="main-container">
+        <?php include ('../pages/flex.php'); ?>
+    </div>
+    <section class="home">
 
-                <div class="contenido" >
+    <div class="profile-header">
+                <div>
+                    <h2>TRIMESTRALIZACION</h2>
+                </div>
+                <div>
+                    <i class='bx bx-bell notification-icon'></i>
+                </div>
+    </div>
+
+        <!--INICIO CONTENIDO-->
+        <div class="contenido" >
                     <div class="heroi" >
                 
                         <div class="card-content">
@@ -85,8 +96,7 @@
                                     </div>
                                 </div>
                             </div>                                                                             
-                        </div>
-                
+                        </div>                
                         <div class="card-content">
                             <h3 class="card-title">Trimestre I</h3>
                             <div class="heu">
@@ -206,113 +216,20 @@
                     </div>
                 </div>
                               
-
-
-
-
-
-
                 <!--FIN CONTENIDO-->
+    </section>
 
-                <div class="footern">
-                    <footer class="footera">
-                        <div class="footer-container">
-                        <img loading="lazy" alt="" src="/img/redes_footer.png"/>
-                        <div class="url_footer">
-                            <a id="link1" href="www.sena.edu.co" clas target="_blank">www.sena.edu.co</a>
-                            <a id="link2" href="www.zajuna.sena.edu.co" target="_blank">www.zajuna.sena.edu.co</a>
-                            <a id="link3" href="www.senasofiaplus.edu.co" target="_blank">www.senasofiaplus.edu.co</a>
-                        </div>
-                        </div>
-                    </footer>
+    <div class="footer">
+    <div class="footer-container">
+            <img loading="lazy" alt="" src="/img/redes_footer.png"/>
+            
+            <div class="url_footer">
+                <a id="link1" href="www.sena.edu.co" clas target="_blank"> www.sena.edu.co </a>
+                <a id="link2" href="www.zajuna.sena.edu.co" target="_blank">  www.zajuna.sena.edu.co</a>
+                <a id="link3" href="www.senasofiaplus.edu.co" target="_blank"> www.senasofiaplus.edu.co</a>
+            </div>
             </div>
     </div>
 
-    <style>
-        .card {
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 100px;
-    overflow: hidden;
-    text-align: center;
-    
-}
-.contenido{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-wrap: wrap;
-}
-
-.heroi{
-    display: flex;
-    width: 100%;
-    display: flex; 
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.flexx{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 10px;
-
-}
-
-.flexx-container{
-    margin-top: 34px;
-}
-.heu{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    height: 100%;
-}
-.card-img {
-    width: 100%;
-    height: auto;
-}
-
-.card-content {
-    padding: 16px;
-    border-radius: 20px;
-    height: 250px;
-    width: 250px;
-    background-color:#D9D9D9 ; 
-    flex-basis: calc(28.33% - 10px);
-     margin-bottom: 10px
-}
-
-.card-title {
-    font-size: 1.5em;
-    margin: 0 0 10px 0;
-}
-
-
-
-.card-text {
-    font-size: 1em;
-    color: #555;
-    margin: 0 0 10px 0;
-}
-
-.card-button {
-    display: inline-block;
-    padding: 7px 15px;
-    color: #fff;
-    background-color: #007bff;
-    text-decoration: none;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-}
-
-.card-button:hover {
-    background-color: #0056b3;
-}
-    </style>
-
-  </body>
+</body>
 </html>

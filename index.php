@@ -50,7 +50,7 @@
                         <div class="forget">
                             <a href="#contrasena.html">Olvide mi contrasena</a>
                         </div>
-                        <a class="buton-ingresar" href="pages/tremestralizacion.html" >Ingresar</a>
+                        <a class="buton-ingresar" href="pages/principal.php" >Ingresar</a>
                         <div class="register">
                             <p>Crear<a href="#"> Cuenta</a></p>
                         </div>
